@@ -1,6 +1,9 @@
-# COGS118B Project template
-This is your group repo for your final project for COGS118B
+# Comparative Analysis of Gaussian Mixture Models, K-Means Clustering, and Recurrent Neural Networks for Stock Volatility Prediction
 
-This is your repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the three files above on due dates with the required information, the rest is up to you all.
+To view full project report, code and findings please view the Project_Report.ipynb file in this repository. The abstract from the project is displayed below for convience and overiew of project.
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+# Abstract 
+
+This study has the goal of utilizing machine and deep learning methods to cluster company stocks by their volatilities and conduct analyses from the resultant groupings. First we will use the common machine learning method Gaussian Mixture Models (GMM) to cluster stock volatilities. We will then later predict future volatility using a Recurrent Neural Network (RNN). This gives us the opportunity to potentially identify more complex patterns that are unseen with use of simpler methods and features. We plan to use unsupervised clustering methods to analyze differences in performance between high and low volatility stocks. We will then use supervised machine learning, via a neural network, to predict future stock volatility given past data for each company. 
+
+We hope this project will present new insights to investment information gained by analyzing how the stocks are clustered together as well as identifying patterns that point towards growth. Success for the unsupervised learning portion of this project will be measured by comparing the silhouette score of a GMM to our baseline k-means model, commonly used in surrounding literature in this field. Additionally, any insights gained from this comparison and determining how useful the measure of volatility is when classifying stocks, will also be considered measurable achievements of or work.
